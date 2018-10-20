@@ -154,9 +154,18 @@ text-indent: 7px;
     text-shadow: 0 1px 0 #FAFDFC;}
 
 
-.subscribe {border-bottom: 1px dashed #E5E5E5; border-top 1px dashed #E5E5E5; margin-top: 20px;}
+.subscribe {border-bottom: 1px dashed #E5E5E5; padding-top: 15px; border-top: 1px dashed #E5E5E5; margin-top: 20px;}
 
 .mail input {display: inline-block;}
+
+.mail input:first-child{
+    width: 240px;
+    border: 1px solid;
+    border-color: #848484 #c1c1c1 #e1e1e1;
+    height: 28px;
+    text-indent: 4px;
+    font-size: 0.9em;}
+
 
 .submit {
     border-radius: 4px;
@@ -167,3 +176,9 @@ text-indent: 7px;
     padding: 5px;
 
 }
+
+.subscribe div:first-child p {font-size: 0.7em; margin-left: 40px; margin-top: 3px; }
+.subscribe div:first-child {   background-image: url("../images/mail.jpg"); background-repeat: no-repeat; background-position: left 10px top 0px; }
+
+.blocknews {margin-top: 20px;}
+.new img {width: 100%; padding: 10px; border: 1px solid #E5E5E5;}
