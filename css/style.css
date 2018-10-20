@@ -3,6 +3,7 @@ body{
     font-family: ff-tisa-web-pro, Georgia, sans-serif;
     line-height: 1;
     color: #333;
+
 }
 .container {
 
@@ -21,7 +22,9 @@ a {
 a:hover {color: #EC6635;
     text-decoration: none;
 }
-ul li {list-style: none;}
+ul li {
+    list-style: none;
+}
 
 nav ul{
     padding-left: 0;
@@ -40,7 +43,9 @@ nav ul li a {
     margin-bottom: 10px;
 }
 
-nav ul li a:hover {    background-position-x:5px;}
+nav ul li a:hover {
+    background-position-x:5px;
+}
 
 a#i-tastemakers {
     background-image: url("../images/vilki.jpg");
@@ -58,15 +63,107 @@ a#i-about {
     background-image: url("../images/about.jpg");
 }
 
+
+.podzagvmenu {
+    display: block;
+    border-bottom: 1px dashed #E5E5E5;
+    padding-bottom: 2px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #EFF8F7;
+    border: 1px solid #E5E5E5;
+    -webkit-box-shadow: 1px 1px 2px #F5F5F5;
+    -moz-box-shadow: 1px 1px 2px #F5F5F5;
+    box-shadow: 1px 1px 2px #F5F5F5;
+    font-size: 0.7em;
+    display: block;
+    padding: 10px;
+    text-align: center;
+text-indent: 7px;
+    background-position: left 5px top 45%;
+    background-repeat: no-repeat;
+}
+
+.btwit {    background-image: url("../images/lasttwit.jpg"); }
+
+.bface {    background-image: url("../images/lastface.jpg");}
+
+
+.minitext {    font-size: 0.7em;}
+
+
+
+
 .slider {
-    height: 496px;
+    height: 447px;
     width: 100%;
     background-image: url("../images/sli.jpg");
     background-repeat: no-repeat;
     background-position: right 0px;
-position: relative;}
+    position: relative;}
 
 
-.podpisi{ display: block; position: absolute; bottom: 90px; right: 0px;    width: 60%; font-style: italic;}
-.podpisi h1{  padding: 10px; background: #fff; font-size: 1.5em; color: #000; text-align: center; right: 0; margin-bottom: 0;     display: inline-block; }
-.podpisi h2{background: #000; font-size: 1em; color: #fff; padding: 10px; text-align: center; right: 0;     display: inline-block;}
+.podpisi{ display: block;
+    position: absolute;
+    bottom: 90px;
+    right: 0px;
+    width: 60%;
+    font-style: italic;
+}
+.podpisi h1{
+    padding: 10px;
+    background: #fff;
+    font-size: 1.5em;
+    color: #000;
+    text-align: center;
+    right: 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.podpisi h2{
+    background: #000;
+    font-size: 1em;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    right: 0;
+    display: inline-block;
+}
+
+
+
+.pods {background: #EFF8F7;
+    font-size: 0.8em; border-right: 1px solid #D3EDE9;}
+.pods:last-child {border: none;}
+.pods a {
+    margin-top: 20px;
+    display: block;}
+
+.pods h3 {    font-size: 1.5em;}
+.pods p {font-size: 0.9em;}
+
+.minitext {line-height: 1.7em;}
+.active {
+    color: #34AC98;
+    background: #D9EFEC;
+    text-shadow: 0 1px 0 #FAFDFC;}
+
+
+.subscribe {border-bottom: 1px dashed #E5E5E5; border-top 1px dashed #E5E5E5; margin-top: 20px;}
+
+.mail input {display: inline-block;}
+
+.submit {
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #ddd #bbb #999;
+    background-image: url("../images/button.png");
+    font-size: 0.9em;
+    padding: 5px;
+
+}
