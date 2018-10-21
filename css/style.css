@@ -216,3 +216,48 @@ text-indent: 7px;
 .twitter {background: url("../images/twitter.jpg");}
 .facebook {background: url("../images/facebook.jpg");}
 .rss {background: url("../images/rss.jpg");}
+
+
+
+@media (max-width: 1199px) {
+
+    .container {
+
+        padding-top: 20px;
+    }
+nav ul li {display: inline-block; padding-left: 20px;}
+    nav ul li a {padding-top: 35px; background-position: center; padding-left: 0px; }
+    nav {display: inline-block; float: right; margin-top: 30px;}
+    .pomentw {display: none;}
+    .slider {background-size: cover;}
+    .pods p {display: none;}
+    .pods h3 {
+        text-align: center;
+}
+
+    .pods a {
+        margin-top: 10px;}
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    nav ul li a {background-image: none!important; font-size: .8em; padding-top: 20px;}
+
+    .logo {
+        margin-bottom: 20px; }
+
+    .slider {height: 300px;
+        }
+.pods {display: none;}
+
+.podpisi {width: 100%;     bottom: 0px;}
+    .podpisi h1 { display: block;     font-size: 0.9em; text-align: left;}
+    .podpisi h2 { display: block;     font-size: 0.7em; text-align: left; margin-bottom: 0px;}
+    .mail {text-align: left!important;}
+    .mail input:first-child {
+        width: 320px;}
+}
+
