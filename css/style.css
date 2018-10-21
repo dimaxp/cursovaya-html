@@ -41,6 +41,10 @@ nav ul li a {
     background-repeat: no-repeat;
     background-position-x:0 ;
     margin-bottom: 10px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
 }
 
 nav ul li a:hover {
@@ -74,7 +78,7 @@ a#i-about {
 }
 
 .button {
-    background-color: #EFF8F7;
+
     border: 1px solid #E5E5E5;
     -webkit-box-shadow: 1px 1px 2px #F5F5F5;
     -moz-box-shadow: 1px 1px 2px #F5F5F5;
@@ -86,7 +90,11 @@ a#i-about {
 text-indent: 7px;
     background-position: left 5px top 45%;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
+
+
+.button:hover {    background-color: #EFF8F7;}
 
 .btwit {    background-image: url("../images/lasttwit.jpg"); }
 
@@ -99,7 +107,7 @@ text-indent: 7px;
 
 
 .slider {
-    height: 447px;
+    height: 445px;
     width: 100%;
     background-image: url("../images/sli.jpg");
     background-repeat: no-repeat;
@@ -175,6 +183,7 @@ text-indent: 7px;
     font-size: 0.9em;
     padding: 5px;
 
+
 }
 
 .subscribe div:first-child p {font-size: 0.7em; margin-left: 40px; margin-top: 3px; }
@@ -182,3 +191,28 @@ text-indent: 7px;
 
 .blocknews {margin-top: 20px;}
 .new img {width: 100%; padding: 10px; border: 1px solid #E5E5E5;}
+.new h3  {    font-size: 1em; margin-top: 10px;}
+.new p {    font-size: 0.8em; line-height: 1.4em; color: #333;}
+.new p:last-child {  color: #34AC98;}
+
+.footer {border-top: 2px solid #E5E5E5; margin-top: 20px; color: #34AC98; font-size: 0.7em; line-height: 1.6em;}
+.footer .copy {margin-top: 20px;}
+
+.solial li {display:inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: top 3px right -15px;
+    cursor: pointer; opacity: 0.4;
+    -webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+
+.solial li:hover {opacity: 1;}
+.twitter {background: url("../images/twitter.jpg");}
+.facebook {background: url("../images/facebook.jpg");}
+.rss {background: url("../images/rss.jpg");}
